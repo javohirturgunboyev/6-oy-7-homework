@@ -44,6 +44,8 @@ const App = () => {
                     <select value={category} onChange={handleCategoryChange}>
                         <option value="">All Categories</option>
                         <option value="средний">Средний</option>
+                        <option value="средний">Не популярен</option>
+                        <option value="средний">Все</option>
                     </select>
                     <div className="card-container">
                         {products.map(product => (
